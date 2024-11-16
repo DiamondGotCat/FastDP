@@ -4,7 +4,7 @@
 
 **Protocol Name:** FastDrop Protocol (`fastdp`)  
 **Version:** 1.0.0  
-**Goal:** Achieve ultra-fast data transmission by leveraging hardware capabilities to their limits, ensuring high-speed communication with reliability and efficiency.
+**Goal:** The fastest protocol in the world
 
 ### Table of Contents
 
