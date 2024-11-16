@@ -3,7 +3,7 @@
 ### Overview
 
 **Protocol Name:** FastDrop Protocol (`fastdp`)  
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Goal:** The fastest protocol in the world
 
 ### Table of Contents
@@ -71,6 +71,9 @@ After the handshake, both parties exchange FastDP Headers to establish the param
 5. **CompressType** (`str`):  
    Compression algorithm used.  
    - **Options:** `["None", "Zstd", "Zip", "TarGz"]`
+   
+6. **FileName** (`str`):  
+   Name of the file being transmitted.
 
 **Example FastDP Header (JSON Format):**
 
@@ -80,7 +83,8 @@ After the handshake, both parties exchange FastDP Headers to establish the param
   "FullChunk": 100,
   "FullSize": 104857600,
   "DPVersion": "1.0.0",
-  "CompressType": "Zstd"
+  "CompressType": "Zstd",
+  "FileName": "example.txt"
 }
 ```
 
@@ -541,10 +545,6 @@ if __name__ == "__main__":
 3. **File Transfer:**
    - The client will connect to the server, perform the FastDP handshake, exchange headers, and begin transmitting the file in chunks.
    - Upon completion, the server saves the received file as `received_file`.
-
-4. **Reconnection Handling:**
-   - The implementation includes basic reconnection logic after transmitting 0.5 GB of data.
-   - Both client and server notify each other to reconnect, managing memory usage and preventing timeouts.
 
 ### Notes and Considerations
 
