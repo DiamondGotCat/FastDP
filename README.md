@@ -1,14 +1,3 @@
-
-## My Pipelines Ranking
-
-### 1. UltraDP
-Most Fast in My Project.
-**PEEK SPEED:** 6.2GB / 6.2sec
-
-### 2. FastDP | NextDP(NextDrop)
-**PEEK SPEED:** 3GB / 5sec
-
-
 ## FastDrop Protocol (fastdp) Specification
 
 ### Overview
