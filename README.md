@@ -3,7 +3,7 @@
 
 ### 1. UltraDP
 Most Fast in My Project.
-**PEEK SPEED:** 2.46GB / 3sec
+**PEEK SPEED:** 6.2GB / 6.2sec
 
 ### 2. FastDP | NextDP(NextDrop)
 **PEEK SPEED:** 3GB / 5sec
